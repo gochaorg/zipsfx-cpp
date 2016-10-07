@@ -46,7 +46,7 @@ zipsfx-cpp - это head stub для zip sfx файла. т.е. программ
 
     OPTIONS BEGIN {
     # Hello
-    hello = SFX ZIP v 0.4 by nt.gocha@gmail.com Sample
+    hello = SFX ZIP v 0.1 by nt.gocha@gmail.com Sample
 
     # Delete files on exit
     deleteFiles = true
@@ -76,7 +76,7 @@ zipsfx-cpp - это head stub для zip sfx файла. т.е. программ
     * **`$args`** - аргументы переданные через командную строку - соответствует аргументу `%*` .
     * **`$zip`** - путь к самому zip архиву.
    * **`workDir`** - Указывает рабочий каталог (шаблон) на время исполнения команды *`run`*
-   * **`return`** - Значение **`true`** указывает возвращать код завершения команды `run`; **`false`** (по умолчанию) - Использовать свое значение
+   * **`return`** - Значение **`true`** указывает возвращать код завершения команды *`run`*; **`false`** (по умолчанию) - Использовать свое значение
   * **`quoteArgs`** - брать в кавычки аргументы, возможные значения:
     * **`auto`** (по умолчанию) - автоматически, при обнаружении пробелов в аргументе
     * **`always`** - всегда брать в кавычки
@@ -84,6 +84,41 @@ zipsfx-cpp - это head stub для zip sfx файла. т.е. программ
   * **`showHello`** - Указывает отображать приветствие (**`true`**) или нет (**`false`**)
   * **`showLog`** - Указывает отображать лог действий (**`true`**) или нет (**`false`**)
   * **`useTemp`** - Значение **`true`** (по умолч.) указывает использовать временный каталог для распаковки; **`false`** - будет использован текущий каталог.
+  
+## Создание EXE файла
+
+Теперь необходимо последовательно "склеить" три файла: загрузчик (**[zipsfx](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4/dist/Release/MinGW2-Windows/zipsfx)**), файл с опциями (**[options.txt](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4/dist/Release/MinGW2-Windows/options.txt)**) и ZIP архив (**data.zip**).
+
+Ниже пример как сделать это в командной строке WINDOWS:
+
+    C:\Documents and Settings\user\Рабочий стол\sample-zip>copy /b zipsfx + options.txt + data.zip install.exe
+    zipsfx
+    options.txt
+    data.zip
+    Скопировано файлов:         1.
+
+## Пример выполнения
+
+В командной строке WINDOWS запустите получившийся файл install.exe
+
+    SFX ZIP v 0.1 by nt.gocha@gmail.com Sample
+    unpack zip to C:\DOCUME~1\user\LOCALS~1\Temp\temp.zip.content
+    extract content
+    count entries = 2
+    1. index.html
+    2. printargs.exe
+    print args
+    C:\DOCUME~1\user\LOCALS~1\Temp\temp.zip.content\printargs.exe
+    C:\DOCUME~1\user\LOCALS~1\Temp\temp.zip.content
+    press ENTER/RETURN for exit
+
+    removing C:\DOCUME~1\user\LOCALS~1\Temp\temp.zip
+    removing C:\DOCUME~1\user\LOCALS~1\Temp\temp.zip.content
+
+Пояснения:
+
+ * Текст `SFX ZIP v 0.1 by nt.gocha@gmail.com Sample` - этот текст был указа в опции *`hello`*
+ * Текст `print args ... press ENTER/RETURN for exit` - отображается программой printargs.exe
 
 Дистрибутив
 ===========
