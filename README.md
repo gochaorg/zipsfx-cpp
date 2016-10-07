@@ -10,4 +10,4 @@ zipsfx-cpp - это head stub для zip sfx файла. т.е. программ
 Не требует дополнительных DLL файлов, 
 кроме тех что поставляются вместе с Windows (KERNEL32.DLL и MSVCRT.DLL).
 
-Скачать можно по этой ссылке http://jgef.googlecode.com/files/zipsfx-v0.4.loader
+Скачать можно по этой ссылке https://github.com/gochaorg/zipsfx-cpp/tree/v0.4/dist/Release/MinGW-Windows
