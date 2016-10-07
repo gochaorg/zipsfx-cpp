@@ -1,0 +1,10 @@
+OPTIONS BEGIN {
+# Hello
+hello = SFX ZIP v 0.1 by nt.gocha@gmail.com Sample
+
+# Delete files on exit
+deleteFiles = true
+
+# Run after extract
+run = $dir\printargs.exe "$dir"
+} OPTIONS END

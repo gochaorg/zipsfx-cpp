@@ -1,0 +1,25 @@
+OPTIONS BEGIN {
+# Hello text
+hello = HELLO4 Test arguments
+
+# Show hello text
+showHello = false
+
+# Show log progress
+showLog = false
+
+# Delete files on exit
+deleteFiles = true
+
+# Run after extract
+run = cmd /C launcher-2.bat $args
+
+workDir = $dir\data
+
+# return exit code from run
+return = true
+
+# true - use temp dir; false - use current dir
+useTemp = true
+
+} OPTIONS END

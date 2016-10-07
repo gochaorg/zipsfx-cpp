@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>File.h</itemPath>
+      <itemPath>IOError.h</itemPath>
+      <itemPath>RandomAccessFile.h</itemPath>
+      <itemPath>String.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="incdir" displayName="incdir" projectFiles="true">
+        <logicalFolder name="amiga" displayName="amiga" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="contrib" displayName="contrib" projectFiles="true">
+          <logicalFolder name="ada" displayName="ada" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="amd64" displayName="amd64" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="asm686" displayName="asm686" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="blast" displayName="blast" projectFiles="true">
+            <itemPath>lib/zlib/incdir/contrib/blast/blast.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/blast/blast.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="delphi" displayName="delphi" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="dotzlib" displayName="dotzlib" projectFiles="true">
+            <logicalFolder name="DotZLib" displayName="DotZLib" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="gcc_gvmat64" displayName="gcc_gvmat64" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="infback9" displayName="infback9" projectFiles="true">
+            <itemPath>lib/zlib/incdir/contrib/infback9/infback9.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/infback9/infback9.h</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/infback9/inffix9.h</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/infback9/inflate9.h</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/infback9/inftree9.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/infback9/inftree9.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="masmx64" displayName="masmx64" projectFiles="true">
+            <itemPath>lib/zlib/incdir/contrib/masmx64/inffas8664.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="masmx86" displayName="masmx86" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="minizip" displayName="minizip" projectFiles="true">
+            <itemPath>lib/zlib/incdir/contrib/minizip/crypt.h</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/ioapi.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/ioapi.h</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/iowin32.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/iowin32.h</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/miniunz.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/minizip.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/mztools.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/mztools.h</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/unzip.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/unzip.h</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/zip.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/minizip/zip.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="pascal" displayName="pascal" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="puff" displayName="puff" projectFiles="true">
+            <itemPath>lib/zlib/incdir/contrib/puff/puff.c</itemPath>
+            <itemPath>lib/zlib/incdir/contrib/puff/puff.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="vstudio" displayName="vstudio" projectFiles="true">
+            <logicalFolder name="vc10" displayName="vc10" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="vc9" displayName="vc9" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="doc" displayName="doc" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="msdos" displayName="msdos" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="nintendods" displayName="nintendods" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="old" displayName="old" projectFiles="true">
+          <logicalFolder name="as400" displayName="as400" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="os2" displayName="os2" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="visualc6" displayName="visualc6" projectFiles="true">
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="qnx" displayName="qnx" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="watcom" displayName="watcom" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="win32" displayName="win32" projectFiles="true">
+        </logicalFolder>
+        <itemPath>lib/zlib/incdir/adler32.c</itemPath>
+        <itemPath>lib/zlib/incdir/compress.c</itemPath>
+        <itemPath>lib/zlib/incdir/crc32.c</itemPath>
+        <itemPath>lib/zlib/incdir/crc32.h</itemPath>
+        <itemPath>lib/zlib/incdir/deflate.c</itemPath>
+        <itemPath>lib/zlib/incdir/deflate.h</itemPath>
+        <itemPath>lib/zlib/incdir/example.c</itemPath>
+        <itemPath>lib/zlib/incdir/gzclose.c</itemPath>
+        <itemPath>lib/zlib/incdir/gzguts.h</itemPath>
+        <itemPath>lib/zlib/incdir/gzlib.c</itemPath>
+        <itemPath>lib/zlib/incdir/gzread.c</itemPath>
+        <itemPath>lib/zlib/incdir/gzwrite.c</itemPath>
+        <itemPath>lib/zlib/incdir/infback.c</itemPath>
+        <itemPath>lib/zlib/incdir/inffast.c</itemPath>
+        <itemPath>lib/zlib/incdir/inffast.h</itemPath>
+        <itemPath>lib/zlib/incdir/inffixed.h</itemPath>
+        <itemPath>lib/zlib/incdir/inflate.c</itemPath>
+        <itemPath>lib/zlib/incdir/inflate.h</itemPath>
+        <itemPath>lib/zlib/incdir/inftrees.c</itemPath>
+        <itemPath>lib/zlib/incdir/inftrees.h</itemPath>
+        <itemPath>lib/zlib/incdir/trees.c</itemPath>
+        <itemPath>lib/zlib/incdir/trees.h</itemPath>
+        <itemPath>lib/zlib/incdir/uncompr.c</itemPath>
+        <itemPath>lib/zlib/incdir/zconf.h</itemPath>
+        <itemPath>lib/zlib/incdir/zlib.h</itemPath>
+        <itemPath>lib/zlib/incdir/zutil.c</itemPath>
+        <itemPath>lib/zlib/incdir/zutil.h</itemPath>
+      </logicalFolder>
+      <itemPath>File.cpp</itemPath>
+      <itemPath>IOError.cpp</itemPath>
+      <itemPath>RandomAccessFile.cpp</itemPath>
+      <itemPath>String.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>C:\home\gocha\zipsfx-cpp\lib\zlib\incdir</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>MinGW|MinGW</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandLine>-Wa</commandLine>
+        </ccTool>
+      </compileType>
+      <folder path="HeaderFiles">
+        <ccTool>
+          <incDir>
+            <pElem>lib/zlib/incdir</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="SourceFiles">
+        <ccTool>
+          <incDir>
+            <pElem>lib/zlib/incdir</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>MinGW2|MinGW</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>C:/MinGW/lib/gcc/mingw32/4.6.2/include/c++</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>lib/zlib/incdir</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
