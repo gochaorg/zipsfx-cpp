@@ -42,7 +42,7 @@ zipsfx-cpp - это head stub для zip sfx файла. т.е. программ
 
 Данный шаг не является обязательным, если вам нет нужды специально указывать дополнительные параметры, вы можете пропустить этот шаг.
 
-Создайте текстовый файл [options.txt](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4/dist/Release/MinGW2-Windows/options.txt) со следующим содержанием
+Создайте текстовый файл [options.txt](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4.1/dist/Release/MinGW2-Windows/options.txt) со следующим содержанием
 
     OPTIONS BEGIN {
     # Hello
@@ -87,7 +87,7 @@ zipsfx-cpp - это head stub для zip sfx файла. т.е. программ
   
 ## Создание EXE файла
 
-Теперь необходимо последовательно "склеить" три файла: загрузчик (**[zipsfx](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4/dist/Release/MinGW2-Windows/zipsfx)**), файл с опциями (**[options.txt](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4/dist/Release/MinGW2-Windows/options.txt)**) и ZIP архив (**data.zip**).
+Теперь необходимо последовательно "склеить" три файла: загрузчик (**[zipsfx](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4.1/dist/Release/MinGW2-Windows/zipsfx)**), файл с опциями (**[options.txt](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4.1/dist/Release/MinGW2-Windows/options.txt)**) и ZIP архив (**data.zip**).
 
 Ниже пример как сделать это в командной строке WINDOWS:
 
@@ -123,14 +123,14 @@ zipsfx-cpp - это head stub для zip sfx файла. т.е. программ
 Дистрибутив
 ===========
 
-Актуальная версия **0.4**
+Актуальная версия **0.4.1**
 
 Последний актуальный дистрибутив находится по ссылке
-https://github.com/gochaorg/zipsfx-cpp/tree/v0.4/dist/Release/MinGW2-Windows
+https://github.com/gochaorg/zipsfx-cpp/tree/v0.4.1/dist/Release/MinGW2-Windows
 
-Исходный код https://github.com/gochaorg/zipsfx-cpp/archive/v0.4.tar.gz
+Исходный код https://github.com/gochaorg/zipsfx-cpp/archive/v0.4.1.tar.gz
 
 В дистирибутив входит
 
- * [zipsfx](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4/dist/Release/MinGW2-Windows/zipsfx) - бинарный файл, который и представляет из себя "инсталлятор" / sfx stub
- * [options.txt](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4/dist/Release/MinGW2-Windows/options.txt) - файл опций (параметров) инсталятора
+ * [zipsfx](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4.1/dist/Release/MinGW2-Windows/zipsfx) - бинарный файл, который и представляет из себя "инсталлятор" / sfx stub
+ * [options.txt](https://github.com/gochaorg/zipsfx-cpp/raw/v0.4.1/dist/Release/MinGW2-Windows/options.txt) - файл опций (параметров) инсталятора
